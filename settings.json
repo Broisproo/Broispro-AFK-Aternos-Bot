@@ -50,7 +50,7 @@
     },
     "look-around": {
       "enabled": false,
-      "interval": 5000
+      "interval": 50000000000000000000000000000000000000000000
     },
     "random-jump": {
       "enabled": true,
@@ -76,12 +76,12 @@
     "enabled": false,
     "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
     "events": {
-      "connect": true,
-      "disconnect": true,
+      "connect": false,
+      "disconnect": false,
       "chat": false
     }
   },
   "chat": {
-    "respond": true
+    "respond": false
   }
 }
